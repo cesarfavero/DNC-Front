@@ -1,0 +1,10 @@
+{
+  "name": "dnc-front",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Cesar Favero <cesarfaverodesouza@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.1.0"
+  }
+}
