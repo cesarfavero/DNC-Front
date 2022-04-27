@@ -1,7 +1,19 @@
 export function App() {
   return (
+  <body>
+    <header></header>
+    <nav>
+
+    </nav>
+
+    <article>
+      <section></section>
+      <footer></footer>
+    </article>
     <div>
-      <h1>Hello World</h1>
+      <aside></aside>
+      <aside></aside>
     </div>
+  </body>
   )
 }
