@@ -4,6 +4,15 @@
   "main": "index.js",
   "author": "Cesar Favero <cesarfaverodesouza@icloud.com>",
   "license": "MIT",
+  "plugins": [
+    [
+      "@babel/transform-runtime"
+    ]
+  ],
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
   "dependencies": {
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
