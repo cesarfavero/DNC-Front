@@ -11,6 +11,7 @@ import Facebook from './assets/images/facebook.svg'
 import Verified from './assets/images/verified.svg'
 
 import './styles/global.scss'
+import { Services } from './components/Services'
 
 export function App() {
   return (
@@ -77,7 +78,8 @@ export function App() {
         </ul>
       </footer>
     </article>
-    
+
+    <Services />
   </div>
   )
 }
