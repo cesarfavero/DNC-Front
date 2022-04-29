@@ -4,8 +4,8 @@
 
 
 #plans {
+  margin-top: -4rem;
   header{
-    margin-top: 5rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     width: 100%;
@@ -14,24 +14,26 @@
     background-color: #fbfcfc;
     
     p {
-      color: #1d262b;
+      color: #33c583;
       font-size: 2em;
       font-family: 'Roboto', sans-serif;
+      font-weight: 500;
       
-      padding-top: 2.5rem;
+      margin-left: 2rem;
+      padding-top: 1.6rem;
       span {
         font-size: 0.6em;
       }
   }  
     
     .detail-plans {
-      position: absolute;
+      
 
       float: left;
       height: 3.6rem;
       width: 0.6rem;
 
-      margin-left: -81.2rem;
+      margin-left: 0em;
       margin-top: 1.2rem;
       margin-bottom: 1rem;
 
@@ -41,4 +43,75 @@
       background-color: #4ed376;
     }
   }
+}
+
+.plans {
+
+  margin-left: 2rem;
+  margin-top: 2rem;
+
+  display: inline-block;
+
+  background-color: #fbfcfc;
+
+  width: 18rem;
+  height: 32rem;
+
+  border-radius: 2rem;
+}
+
+
+.content {
+  width:97%;
+    height: 112vh;
+
+    background-color: #d8e2e2;
+
+    margin-left: 1rem;
+    margin-top: 7rem;
+    border-radius: 15px;
+}
+
+
+.title-header {
+  position: absolute;
+
+  margin: 0;
+  padding: 0;
+
+  background-color: #8EC5FC;
+  background-image: -webkit-linear-gradient(62deg, #24c176 0%, #81e875 100%);
+  background-image: -moz-linear-gradient(62deg, #24c176 0%, #81e875 100%);
+  background-image: -o-linear-gradient(62deg, #24c176 0%, #81e875 100%);
+  background-image: linear-gradient(62deg, #24c176 0%, #81e875 100%);
+  border-radius: 2rem 2rem 0rem 0rem;
+  
+  height: 15%;
+  width: 18rem;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+}
+
+.p-header {
+  color: white;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.content-plan {
+  width: 90%;
+  height: 12%;
+
+  
+  margin-top: 7rem;
+  margin-left: 0.8rem;
+
+  border-radius: 10px;
+  border:3px solid #dbe0e0;
+
+  background-color: #eef2f2;
 }
