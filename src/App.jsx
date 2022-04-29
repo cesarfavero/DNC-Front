@@ -12,6 +12,7 @@ import Verified from './assets/images/verified.svg'
 
 import './styles/global.scss'
 import { Services } from './components/Services'
+import { Plans } from './components/Plans'
 
 export function App() {
   return (
@@ -80,6 +81,7 @@ export function App() {
     </article>
 
     <Services />
+    <Plans />
   </div>
   )
 }

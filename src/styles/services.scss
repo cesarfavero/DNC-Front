@@ -33,7 +33,7 @@ section {
   
   div{
     width:97%;
-    height: 125vh;
+    height: 112vh;
 
     background-color: #ecf1f1;
 
@@ -76,6 +76,7 @@ section {
       margin-top: 2rem;
       margin-left: 1.9rem;
       h1 {
+        position: absolute;
         color: #0b582c;
         text-align: left;
         font-size: 1.3rem;
@@ -87,8 +88,12 @@ section {
         color: #535b5f;
         font-family: 'DejaVu Sans', sans-serif;
         float: left;
-        padding-top: 2rem;
+        margin-top: 5rem;
         text-align: justify;
+        
+      }
+      .other-p {
+        margin-top: 1rem;
       }
     }
   }
