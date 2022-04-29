@@ -28,7 +28,9 @@ export function Plans(){
             <div className="title-header">
               <p className="p-header">INTRO PLAN</p>
             </div>
-            <div className="content-plan"></div>
+            <div className="first-content-plan">
+              <img className="ok-icon" src={OkIcon}/>
+            </div>
           <footer>
 
           </footer>
@@ -40,9 +42,19 @@ export function Plans(){
             <div className="title-header">
               <p className="p-header">INTRO PLAN</p>
             </div>
+            <div className="first-content-plan">
+              <img className="ok-icon" src={OkIcon}/>
+            </div>
+            <div className="content-plan">
+              <img className="ok-icon" src={OkIcon}/>
+            </div>
+            <div className="content-plan">
+              <img className="ok-icon" src={OkIcon}/>
+            </div>
           <footer>
 
           </footer>
+          
           
         </div>
           
@@ -50,9 +62,21 @@ export function Plans(){
             <div className="title-header">
               <p className="p-header">INTRO PLAN</p>
             </div>
+            <div className="first-content-plan">
+              <img className="ok-icon" src={OkIcon}/>
+            </div>
+            <div className="content-plan">
+              <img className="ok-icon" src={OkIcon}/>
+            </div>
+            <div className="content-plan">
+              <img className="ok-icon" src={OkIcon}/>
+            </div>
+            <div className="content-plan">
+              <img className="ok-icon" src={OkIcon}/>
+            </div>
           <footer>
-
           </footer>
+          
           
         </div>
         
@@ -60,10 +84,27 @@ export function Plans(){
             <div className="title-header">
               <p className="p-header">INTRO PLAN</p>
             </div>
-            
+            <div className="first-content-plan">
+              <img className="ok-icon" src={OkIcon}/>
+            </div>
+            <div className="content-plan">
+              <img className="ok-icon" src={OkIcon}/>
+            </div>
+            <div className="content-plan">
+              <img className="ok-icon" src={OkIcon}/>
+            </div>
+            <div className="content-plan">
+              <img className="ok-icon" src={OkIcon}/>
+            </div>
+            <div className="content-plan">
+              <img className="ok-icon" src={OkIcon}/>
+            </div>
+            <div className="content-plan">
+              <img className="ok-icon" src={OkIcon}/>
+            </div>
           <footer>
-
           </footer>
+          
           
         </div>
 
