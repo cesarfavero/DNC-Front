@@ -1,6 +1,7 @@
 import '../styles/plans.scss'
 import OkIcon from '../assets/images/ok.svg' 
 import BrazilIcon from '../assets/images/brazil.png'
+import MoneyIcon from '../assets/images/money'
 
 export function Plans(){
   return(
@@ -24,15 +25,21 @@ export function Plans(){
           
         </header>
         
-        <div className="plans">
+        <div className="first-plans">
+        
             <div className="title-header">
               <p className="p-header">INTRO PLAN</p>
             </div>
             <div className="first-content-plan">
               <img className="ok-icon" src={OkIcon}/>
+              
             </div>
           <footer>
-
+          <div class="footer">
+            <img className="money" src={MoneyIcon}/>
+            <h1>R$ 399,90</h1>
+            <span className="mensal">Mensais</span>
+          </div>
           </footer>
           
           
@@ -52,7 +59,11 @@ export function Plans(){
               <img className="ok-icon" src={OkIcon}/>
             </div>
           <footer>
-
+          <div class="footer-2">
+            <img className="money" src={MoneyIcon}/>
+            <h1>R$ 399,90</h1>
+            <span className="mensal">Mensais</span>
+          </div>
           </footer>
           
           
@@ -75,6 +86,11 @@ export function Plans(){
               <img className="ok-icon" src={OkIcon}/>
             </div>
           <footer>
+          <div class="footer-3">
+            <img className="money" src={MoneyIcon}/>
+            <h1>R$ 399,90</h1>
+            <span className="mensal">Mensais</span>
+          </div>
           </footer>
           
           
@@ -103,6 +119,11 @@ export function Plans(){
               <img className="ok-icon" src={OkIcon}/>
             </div>
           <footer>
+          <div class="footer-4">
+            <img className="money" src={MoneyIcon}/>
+            <h1>R$ 399,90</h1>
+            <span className="mensal">Mensais</span>
+          </div>
           </footer>
           
           
