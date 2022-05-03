@@ -128,9 +128,48 @@ export function Plans(){
           
           
         </div>
-
+        <footer>
+        <div className="questions">
+          <h1>Alguma Dúvida?</h1>
+          <span> Mande agora mesmo para sanar qualquer questão</span>
+          <input maxlength="300" placeholder="Escreva aqui (máx: 300 characteres)"/>
+          <button>Enviar</button>
+        </div>
+        </footer>
       </div>
     </section>
+    <div>
+    <section id="plans">
+      <div class="content">
+      
+        <header>
+        
+          <hr class="detail-plans"/>
+          <p>Nossos Principais Orçamentos</p>
+          
+        </header>
+        
+        <div className="map">
+
+        </div>
+
+        <div className="facebook">
+          
+        </div>
+
+        <div className="map">
+          
+        </div>
+
+        <div className="facebook">
+          
+        </div>
+      </div>
+    </section>
+
   </div>
+</div>
+  
+  
   )
 }

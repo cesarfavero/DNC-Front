@@ -69,7 +69,7 @@ section {
     }
     
     .content {
-      max-height: 10px;
+      max-height: 0;
       display: inline-block;
       max-width: 18rem;
       margin-top: 2rem;
@@ -96,4 +96,35 @@ section {
       }
     }
   }
+}
+
+#contacts {
+  .content {
+    max-height: 0;
+    display: inline-block;
+    max-width: 18rem;
+    margin-top: 2rem;
+    margin-left: 1.9rem;
+    h1 {
+      position: absolute;
+      color: #0b582c;
+      text-align: left;
+      font-size: 1.3rem;
+      margin-top: 1rem;
+      width: 16rem;
+    }
+    
+    p {
+      color: #535b5f;
+      font-family: 'DejaVu Sans', sans-serif;
+      float: left;
+      margin-top: 5rem;
+      text-align: justify;
+      
+    }
+    .other-p {
+      margin-top: 1rem;
+    }
+  }
+
 }

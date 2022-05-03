@@ -14,6 +14,9 @@ import './styles/global.scss'
 import { Services } from './components/Services'
 import { Plans } from './components/Plans'
 
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 export function App() {
   return (
   <div>
