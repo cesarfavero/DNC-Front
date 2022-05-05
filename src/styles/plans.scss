@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 
 #plans {
@@ -430,28 +432,157 @@
     
     }
 }
+.contacts-div {
+  text-align: right;
+  margin-top: 2rem;
+}
 
-.map {
+
+
+
+.white {
+  display: flex;
+  align-items: center;
+  
   width: 97%;
-  height: 8rem;
+  height: 6rem;
 
   margin-left: 2rem;
-  margin-top: 2rem;
 
   background-color: #fbfcfc;
+
+  
+  
+
+  p {
+    position: absolute;
+    margin-left: 70rem;
+    align-items: right;
+    text-align: right;
+  }
+
+  
+
+  .Map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ececec;
+    width: 15rem;
+    height: 100%;
+      img {
+        width: 4rem;
+        height: 3.4rem;
+      }
+  }
+
+
+  .YouTube {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ff0000;
+    width: 15rem;
+    height: 100%;
+      img {
+        width: 4rem;
+      }
+
+  }
+  .Instagram {
+    background-color: #8EC5FC;
+      background-image: -webkit-linear-gradient(62deg, #a131c4 0%, #ed4c5e 100%);
+      background-image: -moz-linear-gradient(62deg, #a131c4 0%, #ed4c5e 100%);
+      background-image: -o-linear-gradient(62deg, #a131c4 0%, #ed4c5e 100%);
+      background-image: linear-gradient(62deg, #a131c4 0%, #ed4c5e 100%);
+
+    width: 15rem;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Phone {
+    background-color: #8aec75;
+    width: 15rem;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 2.5rem;
+      height: 2.7rem;
+    }
+  }
 }
 
 
-.facebook {
+.grey {
+  display: flex;
+  align-items: center;
+  
   width: 97%;
-  height: 8rem;
+  height: 6rem;
 
   margin-left: 2rem;
-  margin-top: 2rem;
 
   background-color: #ececec;
-}
 
+  .Facebook {
+    background-color: #1877f2;
+    width: 15rem;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 4rem;
+    }
+  }
+  .LinkedIn {
+    background-color: #0077b7;
+    width: 15rem;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 4rem;
+    }
+  }
+  .WhatsApp {
+    background-color: #1bd741;
+    width: 15rem;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 3rem;
+    }
+  }
+  .Mail {
+    background-color: #333333;
+    width: 15rem;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      height: 4rem;
+      width: 4rem;
+    }
+  }
+  
+}
 
 
 
